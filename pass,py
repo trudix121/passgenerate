@@ -1,0 +1,13 @@
+import random
+
+uppsercaseletter1 = chr(random.randint(65,90))
+uppsercaseletter2 = chr(random.randint(65,90))
+uppsercaseletter3 = chr(random.randint(65,90))
+uppsercaseletter4 = chr(random.randint(65,90))
+uppsercaseletter5 = chr(random.randint(65,90))
+lovwercase1 = (random.choice('qwertyuiopasdfghjklzxcvbnm'))  
+lowercase2 = (random.choice('qwertyuiopasdfghjklzxcvbnm'))  
+digit1 = (random.choice('123456789'))
+digit2 = (random.choice('123456789'))
+print(uppsercaseletter1 + uppsercaseletter2 + lovwercase1 +uppsercaseletter3 + uppsercaseletter4 + uppsercaseletter5 +   lowercase2 + digit1 + digit2)
+
